@@ -9,7 +9,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Write your answer here. Discuss specific concepts like thread creation, thread states, how threads execute concurrently, what surprised you, etc.]
+[From this assignment, I learned how processes run inside the CPU and how the system switches between them very fast. This makes it look like they are running at the same time. I also understood how Round-Robin works and how each process takes a time quantum. If the process does not finish, it goes back to the ready queue again. I also learned how threads are created using Runnable and start() method. I understood that threads have different states and help run multiple tasks at the same time in one program.]
 
 ---
 
