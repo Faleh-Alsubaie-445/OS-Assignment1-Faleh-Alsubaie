@@ -201,7 +201,7 @@ public class SchedulerSimulation {
       // FEATURE 3: List to store all completed processes for summary
     private static List<Process> completedProcesses = new ArrayList<>();
 
-    
+
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here to seed the random number generator
         // This makes your output unique to you - DO NOT forget to change this!
@@ -282,7 +282,12 @@ public class SchedulerSimulation {
              // FEATURE 2: Increment context switch counter when a new process starts running
             contextSwitchCount++;
 
+            // Retrieve the process associated with the thread from the map
+            Process process = processMap.get(currentThread);
 
+            // FEATURE 3: Update waiting time for this process before it runs
+            // Calculate how long it waited in queue since it was last added
+            process.updateWaitingTime();
             // Print the current process queue (list of process IDs in the queue)
             System.out.println(Colors.BOLD + Colors.MAGENTA + "┌─ Ready Queue " + "─".repeat(65) + Colors.RESET);
             System.out.print(Colors.MAGENTA + "│ " + Colors.RESET + Colors.BRIGHT_WHITE + "[" + Colors.RESET);
