@@ -47,6 +47,12 @@ class Process implements Runnable {
         this.timeQuantum = timeQuantum;
         this.remainingTime = burstTime; // Initially, remaining time is equal to the burst time
         this.priority = priority; // FEATURE 1: Initialize priority
+
+
+         // FEATURE 3: Initialize timing fields
+        this.creationTime = System.currentTimeMillis();
+        this.totalWaitingTime = 0; 
+        this.lastReadyTime = this.creationTime;
     }
 
     // This method will be called when the thread for this process is started
