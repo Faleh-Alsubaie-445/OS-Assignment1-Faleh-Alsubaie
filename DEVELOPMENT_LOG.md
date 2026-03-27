@@ -71,16 +71,16 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 4 - [Date and Time]
-**What I did**: 
+### Entry 4 - [March 27, 2026, 10:00 AM]
+**What I did**: FEATURE 2   
 
-**Details**: 
+**Details**: Start implementation by add Count Context Switches
 
-**Challenges**: 
+**Challenges**: How to Increment the counter each time a new process starts running
 
-**Solution**: 
+**Solution**: Adding context switch counter inside while loop for manage the scheduling of processes
 
-**Time spent**: 
+**Time spent**: 20 minutes
 
 ---
 
