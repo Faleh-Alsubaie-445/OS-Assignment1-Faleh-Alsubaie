@@ -9,7 +9,8 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[From this assignment, I learned how processes run inside the CPU and how the system switches between them very fast. This makes it look like they are running at the same time. I also understood how Round-Robin works and how each process takes a time quantum. If the process does not finish, it goes back to the ready queue again. I also learned how threads are created using Runnable and start() method. I understood that threads have different states and help run multiple tasks at the same time in one program.]
+[From this assignment, I learned how processes run inside the CPU and how the system switches between them very fast. This makes it look like they are running at the same time. I also understood how Round-Robin works and how each process takes a time quantum. If the process does not finish, it goes back to the ready queue again. I also learned how threads are created using Runnable and start() method, and how they move between different states. This helped me understand how multithreading improves performance and makes programs more efficient.
+]
 
 ---
 
@@ -17,7 +18,8 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe the specific challenge. Was it understanding the code? Implementing a feature? Using Git? Explain what made it difficult and how it relates to the course concepts.]
+[The most challenging part of this assignment was using GitHub and connecting it with Visual Studio Code. At the beginning, I was not able to make any commits and it showed that I did not have permission. This made it confusing because I did not know what the problem was. I tried multiple times and checked my account settings. After about twenty minutes, I was able to fix the issue and make commits successfully. This experience helped me understand GitHub better and how to manage repositories.
+]
 
 ---
 
