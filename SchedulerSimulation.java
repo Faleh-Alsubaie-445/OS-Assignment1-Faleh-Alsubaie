@@ -173,6 +173,16 @@ class Process implements Runnable {
         return lastReadyTime;
     }
 
+
+    // FEATURE 3: Method to update waiting time when process is about to run
+    public void updateWaitingTime() {
+        long currentTime = System.currentTimeMillis();
+        long waitTime = currentTime - lastReadyTime; // Time spent waiting since last added to queue
+        totalWaitingTime += waitTime;
+    }
+
+
+
     // Check if the process has finished (i.e., no remaining time)
     public boolean isFinished() {
         return remainingTime <= 0;
