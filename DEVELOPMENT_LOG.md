@@ -84,16 +84,16 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 5 - [Date and Time]
-**What I did**: 
+### Entry 5 - [March 27, 2026, 1:32 PM]
+**What I did**: FEATURE 3
 
-**Details**: 
+**Details**:  Start implementation by add Track Waiting Time
 
-**Challenges**: 
+**Challenges**: How to update waiting time
 
-**Solution**: 
+**Solution**: Create method that will take currentTime - lastReadyTime and save the result in variable waitTime
 
-**Time spent**: 
+**Time spent**: 2 hours
 
 ---
 
