@@ -337,6 +337,9 @@ public class SchedulerSimulation {
                     // FEATURE 3: Add to completed processes list for summary
                     completedProcesses.add(process);
                 }
+            } else {
+                // FEATURE 3: Process finished, add to completed list for summary
+                completedProcesses.add(process);
             }
         }
         
