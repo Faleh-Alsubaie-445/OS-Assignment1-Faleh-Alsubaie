@@ -1,5 +1,7 @@
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 import java.util.Random;
@@ -195,6 +197,11 @@ class Process implements Runnable {
 public class SchedulerSimulation {
     // FEATURE 2: Static counter for context switches
      private static int contextSwitchCount = 0;
+
+      // FEATURE 3: List to store all completed processes for summary
+    private static List<Process> completedProcesses = new ArrayList<>();
+
+    
     public static void main(String[] args) {
         // ⚠️ IMPORTANT: Put your student ID here to seed the random number generator
         // This makes your output unique to you - DO NOT forget to change this!
