@@ -204,9 +204,10 @@ public class SchedulerSimulation {
         for (int i = 1; i <= numProcesses; i++) {
             // Random burst time for each process between timeQuantum/2 and 3*timeQuantum
             int burstTime = timeQuantum/2 + random.nextInt(2 * timeQuantum + 1);
-            
+             // FEATURE 1: Generate random priority between 1 and 5 (5 is highest)
+            int priority = 1 + random.nextInt(5); // Random number between 1 and 5
             // Create a new process object with a unique name, burst time, and the defined time quantum
-            Process process = new Process("P" + i, burstTime, timeQuantum);
+            Process process = new Process("P" + i, burstTime, timeQuantum,priority);
             
             // Add the process to the ready queue and the map
             addProcessToQueue(process, processQueue, processMap);
