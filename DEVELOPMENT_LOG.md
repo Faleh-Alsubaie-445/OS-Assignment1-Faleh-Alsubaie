@@ -41,7 +41,7 @@ Document your development process as you work on the assignment. Add entries sho
 
 **Solution**: By sign in with my github account on VScode
 
-**Time spent**: 20 minute
+**Time spent**: 20 minutes
 
 ---
 
@@ -58,16 +58,16 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 3 - [Date and Time]
-**What I did**: 
+### Entry 3 - [March 27, 2026, 9:20 AM]
+**What I did**: FEATURE 1
 
-**Details**: 
+**Details**: Start implementation by add Process Priority
 
-**Challenges**: 
+**Challenges**: How to generate random priority between 1 and 5
 
-**Solution**: 
+**Solution**: Using random.nextInt(5) so the final solution int priority = 1 + random.nextInt(5);
 
-**Time spent**: 
+**Time spent**: 25 minutes
 
 ---
 
