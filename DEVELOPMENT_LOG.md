@@ -32,7 +32,7 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [March 25, 2026, 10:40 PM]
+### Entry 1 - [March 26, 2026, 10:40 AM]
 **What I did**: Start solving the assignment
 
 **Details**: At first i created github account and fork the Repository
@@ -45,16 +45,16 @@ Document your development process as you work on the assignment. Add entries sho
 
 ---
 
-### Entry 2 - [Date and Time]
-**What I did**: 
+### Entry 2 - [March 26, 2026, 11:30 AM]
+**What I did**: Trying to understand the code
 
-**Details**: 
+**Details**: I was trying understand how the code start and how can i add feature
 
-**Challenges**: 
+**Challenges**: The code was clear to understand so theres no challenges
 
-**Solution**: 
+**Solution**: No solution because theres no challenges
 
-**Time spent**: 
+**Time spent**: 1 hour
 
 ---
 
