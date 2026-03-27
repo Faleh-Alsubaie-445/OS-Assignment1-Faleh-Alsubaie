@@ -27,7 +27,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Describe your problem-solving approach. Did you read documentation? Ask for help? Debug systematically? What resources did you use? What strategies worked?]
+[I overcame these challenges by searching for similar problems online and reading solutions from other people. This helped me understand the issue better and find possible fixes. I also used AI tools to help me solve most of the problems, but I made sure I understood the solution. One difficulty I faced was in the third feature, especially how to print output that matches the existing format of the code. I used AI to guide me, but I adjusted the solution based on my understanding. This approach helped me solve the problems and improve my skills.]
 
 ---
 
