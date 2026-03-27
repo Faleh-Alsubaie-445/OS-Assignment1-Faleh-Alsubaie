@@ -32,16 +32,16 @@ Document your development process as you work on the assignment. Add entries sho
 
 ## Your Development Log:
 
-### Entry 1 - [Date and Time]
-**What I did**: 
+### Entry 1 - [March 25, 2026, 10:40 PM]
+**What I did**: Start solving the assignment
 
-**Details**: 
+**Details**: At first i created github account and fork the Repository
 
-**Challenges**: 
+**Challenges**: How to do link between VScode and github 
 
-**Solution**: 
+**Solution**: By sign in with my github account on VScode
 
-**Time spent**: 
+**Time spent**: 20 minute
 
 ---
 
