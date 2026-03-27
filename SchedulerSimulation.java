@@ -292,6 +292,29 @@ public class SchedulerSimulation {
         System.out.println(Colors.BOLD + Colors.BRIGHT_GREEN + 
                           "╚════════════════════════════════════════════════════════════════════════════════╝" + 
                           Colors.RESET + "\n");
+
+
+        // FEATURE 2: Display total context switches at the end of simulation
+        System.out.println(Colors.BOLD + Colors.BRIGHT_YELLOW + 
+                          "╔════════════════════════════════════════════════════════════════════════════════╗" + 
+                          Colors.RESET);
+        System.out.println(Colors.BOLD + Colors.BRIGHT_YELLOW + "║" + Colors.RESET + 
+                          Colors.BG_BLUE + Colors.BRIGHT_WHITE + Colors.BOLD + 
+                          "                        SCHEDULER STATISTICS                                     " + 
+                          Colors.RESET + Colors.BOLD + Colors.BRIGHT_YELLOW + "║" + Colors.RESET);
+        System.out.println(Colors.BOLD + Colors.BRIGHT_YELLOW + 
+                          "╠════════════════════════════════════════════════════════════════════════════════╣" + 
+                          Colors.RESET);
+        System.out.println(Colors.BOLD + Colors.BRIGHT_YELLOW + "║" + Colors.RESET + 
+                          Colors.CYAN + "  🔄 Total Context Switches: " + Colors.RESET + 
+                          Colors.BRIGHT_CYAN + String.format("%-52s", contextSwitchCount) + 
+                          Colors.BOLD + Colors.BRIGHT_YELLOW + "║" + Colors.RESET);
+        System.out.println(Colors.BOLD + Colors.BRIGHT_YELLOW + 
+                          "╚════════════════════════════════════════════════════════════════════════════════╝" + 
+                          Colors.RESET + "\n");
+
+
+
     }
     
     // Method to add a process to the queue and map, while printing a "ready" message
