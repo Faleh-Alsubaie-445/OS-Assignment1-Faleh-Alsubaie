@@ -323,7 +323,7 @@ public class SchedulerSimulation {
                     // This marks when the process started waiting again
                     process.setLastReadyTime(System.currentTimeMillis());
 
-                    
+
                     // Re-enqueue the process to give it another chance to run in the next round
                     addProcessToQueue(process, processQueue, processMap);
                 } else {
@@ -332,6 +332,10 @@ public class SchedulerSimulation {
                                       Colors.RESET + Colors.YELLOW + " is the last process → running to completion" + 
                                       Colors.RESET);
                     process.runToCompletion(); // Run until the process completes
+
+
+                    // FEATURE 3: Add to completed processes list for summary
+                    completedProcesses.add(process);
                 }
             }
         }
