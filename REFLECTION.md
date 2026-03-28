@@ -35,7 +35,7 @@ Answer the following questions about your learning experience. Each answer shoul
 
 **Your Answer:**
 
-[Give specific examples from real applications you use (web browsers, games, mobile apps, etc.). Explain why threads are useful in those scenarios. Connect to what you learned in this assignment.]
+[One example of multithreading in real life is the Tawakkalna application during the COVID-19 pandemic in 2020. At that time, the Ministry of Health required people to use the app to enter public places, which caused a very high load on the system. To handle this, the application can use threads so that each user request runs in a separate thread. Each thread handles login and shows the user’s health status at the same time. This allows the system to serve many users without crashing or slowing down. Also, scheduling helps distribute CPU time between these threads to keep the system responsive.]
 
 ---
 
