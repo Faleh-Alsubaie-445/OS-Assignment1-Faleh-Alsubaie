@@ -43,17 +43,16 @@ Remaining time: 2000ms
 
 **Your Answer:**
 
-[Write your answer here. For each state, explain when P1 enters that state during the simulation. Use your understanding of the code to trace through the lifecycle.]
+1. New: P1 is in the New state when its thread is first created using the Thread constructor, but before the start() method is called.
 
-1. **New**: [When is P1 in New state?]
+2. Runnable: P1 becomes Runnable when the start() method is called, which makes the thread ready to run and waiting for CPU scheduling.
 
-2. **Runnable**: [When does P1 become Runnable?]
+3. Running: P1 enters the Running state when the CPU starts executing its run() method, where it performs its assigned time quantum.
 
-3. **Running**: [When is P1 Running?]
+4. Waiting: P1 goes into the Waiting state when Thread.sleep() is called inside the run() method to simulate execution time, causing it to pause temporarily.
 
-4. **Waiting**: [When/why would P1 be Waiting?]
+5. Terminated: P1 reaches the Terminated state when its remaining time becomes zero, meaning it has completed execution and will not run again.
 
-5. **Terminated**: [When is P1 Terminated?]
 
 ---
 
