@@ -62,31 +62,29 @@ Remaining time: 2000ms
 
 **Your Answer:**
 
-### Example 1: [Name of application/scenario]
+### Example 1: [Game Engine]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[In a game engine, multiple threads handle different tasks such as player movement, physics calculations, and AI behavior. These tasks need to run continuously and smoothly to maintain gameplay.]
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+[Round-Robin scheduling ensures fairness by giving each thread a fixed time quantum, so no single task can dominate the CPU. This improves responsiveness, as all game components are updated frequently, resulting in smooth and predictable performance similar to the process scheduling in the assignment.]
 
-### Example 2: [Name of application/scenario]
+### Example 2: [Web Server]
 
 **Description**: 
-[Describe the real-world scenario or application]
+[A web server handles multiple client requests at the same time, where each request can be managed by a separate thread. These requests may take different amounts of time to process.]
 
 **Why Round-Robin works well here**: 
-[Explain why Round-Robin scheduling is suitable. Consider fairness, responsiveness, predictability, etc.]
+[Round-Robin allows each request to get a fair share of CPU time, preventing any single request from blocking others. This improves responsiveness and ensures that all users are served efficiently, just like how processes in the assignment are scheduled fairly using a ready queue.]
 
 ---
 
 ## Summary
 
 **Key concepts I understood through these questions:**
-1. 
-2. 
-3. 
+1. Thread vs Process
+2. Real-World Applications
 
 **Concepts I need to study more:**
-1. 
-2. 
+1. Thread States
