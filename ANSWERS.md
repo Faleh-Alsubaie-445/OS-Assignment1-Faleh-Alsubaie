@@ -11,7 +11,7 @@ Answer all 4 questions with detailed explanations. Each answer should be **3-5 s
 
 **Your Answer:**
 
-[Write your answer here. Consider: What is a process? What is a thread? How do they differ in terms of memory, resources, creation overhead? Why are threads more suitable for this simulation?]
+[A process is an independent program with its own memory and system resources, while a thread is a smaller unit of execution within a process that shares the same memory and resources. One key difference is memory sharing: processes have separate memory spaces, while threads share memory, as seen in SchedulerSimulation where threads access shared structures like processQueue and processMap. Another difference is creation overhead: processes are more expensive to create, while threads are lightweight, which is why we repeatedly create them using new Thread(process). Additionally, communication between threads is faster since they share data directly, unlike processes which require slower IPC mechanisms. Therefore, threads were used in this assignment because they are more efficient, faster, and better suited for simulating a CPU scheduler.]
 
 ---
 
